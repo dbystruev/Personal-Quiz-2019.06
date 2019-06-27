@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  WelcomeViewController.swift
 //  Personal Quiz
 //
 //  Created by Denis Bystruev on 27/06/2019.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    var window: UIWindow?
-}
+class WelcomeViewController: UIViewController {
 
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {}
+    
+}
